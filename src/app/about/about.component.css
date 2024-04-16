@@ -1,0 +1,19 @@
+h2 {
+    text-align: center;
+}
+
+img { 
+    max-width: 100%;
+    border-radius: 50%; 
+} 
+
+#pictureContainer {
+    width:250px; 
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 2%; 
+} 
+
+p {
+    margin: 0 auto;
+}

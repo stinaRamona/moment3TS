@@ -8,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './about.component.css'
 })
 export class AboutComponent {
+  profilePic: string = "assets/images/profil_ritad.jpg"; 
 
 }

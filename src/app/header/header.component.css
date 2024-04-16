@@ -27,12 +27,18 @@ a {
     font-size: 1.5em;
 }
 
-li:hover {
-    background-color:rgb(44, 59, 40);
-    padding:3%;  
+/*För active och hover*/
+a:hover {
+    color:rgb(255, 208, 0);  
 } 
 
 nav h1 {
     color: beige;
+} 
+
+.active {
+    background-color:rgb(44, 59, 40); 
+    padding:10%;
+    color:rgb(255, 208, 0) 
 }
 
