@@ -1,9 +1,8 @@
-<nav>
-  <ul>
-    <li><a routerLink = "/home">Startsidan</a></li>
-    <li><a routerLink="/convert">Konverterare</a></li>
-    <li><a routerLink="/about">Om sidan</a></li>
-  </ul>
-</nav>
+<!--Hämtar in header från komponent-->
+<app-header/>
 
+<main>
 <router-outlet />
+</main>
+<!--Hämtar in footer från komponent-->
+<app-footer/>

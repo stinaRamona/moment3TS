@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-color: rgb(107, 139, 99);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin:0; 
+    line-height: 120%; 
+} 
+
+main {
+    width: 850px; 
+    max-width: 100%;
+    margin: 0 auto; 
+    background-color: beige; 
+    padding: 1%; 
+}
+
+h1 {
+    font-size: 2em;
+}
+
+p {
+    max-width: 32em;   
+}
