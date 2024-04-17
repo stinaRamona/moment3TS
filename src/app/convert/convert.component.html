@@ -1,28 +1,6 @@
 <h2>Konverterare</h2>
 
-<h3>Konverterare för fot/meter</h3>
-<div>
-    <label for="lengthInput">Längd i Meter eller Fot:</label><br>
-    <input type="number" name="lengthInput" id="lengthInput" [(ngModel)]="lengthInput"><br>
-</div>
+<app-convert-length/>
 
-<button (click)="convertLengthMtoF()">Konvertera Meter till Fot</button>
-<button (click)="convertLengthFtoM()">Konvertera Fot till Meter</button>
-
-<div>
-    <b>Resultat: {{ resultLength }}</b>
-</div>
-
-<h3>Konverterare för celcius/farenheit</h3>
-<div>
-    <label for="tempInput">Temperatur i celcius eller farenheit:</label><br>
-    <input type="number" name="tempInput" id="tempInput" [(ngModel)]="tempInput"><br>
-</div>
-
-<button (click)="convertDegreesCtoF()">Konvertera celcius till farenheit</button>
-<button (click)="convertDegreesFtoC()">Konvertera farenheit till celcius</button>
-
-<div>
-    <b>Resultat: {{ resultTemp }}</b>
-</div>
+<app-convert-temp/>
 

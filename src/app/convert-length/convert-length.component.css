@@ -1,0 +1,25 @@
+/*Formulär och knappar*/
+button {
+    border-radius: 4px;
+    background-color: rgb(59, 80, 54);
+    color:beige; 
+    padding: 1%;
+    margin-right: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;  
+    border: 1px solid #808080; 
+    box-shadow: 2px 2px #707070;
+} 
+
+button:hover {
+    background-color: rgb(44, 59, 40);
+    color: rgb(255, 208, 0); 
+    cursor: pointer;
+} 
+
+input {
+    border: 1px solid #808080; 
+    border-radius: 4px;
+    padding: 1%; 
+    width: 40%; 
+}

@@ -1,0 +1,14 @@
+<h3>Konverterare för fot/meter</h3>
+<div>
+    <label for="lengthInput">Längd i Meter eller Fot:</label><br><br>
+    <input type="number" name="lengthInput" id="lengthInput" [(ngModel)]="lengthInput"><br>
+</div>
+
+<button (click)="convertLengthMtoF()">Konvertera Meter till Fot</button>
+<button (click)="convertLengthFtoM()">Konvertera Fot till Meter</button>
+
+<div>
+    <b>Resultat: {{ resultLength }}</b>
+</div> 
+
+

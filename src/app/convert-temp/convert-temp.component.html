@@ -1,0 +1,12 @@
+<h3>Konverterare för celcius/farenheit</h3>
+<div>
+    <label for="tempInput">Temperatur i celcius eller farenheit:</label><br><br>
+    <input type="number" name="tempInput" id="tempInput" [(ngModel)]="tempInput"><br>
+</div>
+
+<button (click)="convertDegreesCtoF()">Konvertera celcius till farenheit</button>
+<button (click)="convertDegreesFtoC()">Konvertera farenheit till celcius</button>
+
+<div>
+    <b>Resultat: {{ resultTemp }}</b>
+</div>
