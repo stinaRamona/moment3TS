@@ -13,4 +13,19 @@ footer p {
     max-width: 36em; 
     margin: 0 auto;
     padding: 1%;  
+} 
+
+@media (min-width: 501px) and (max-width:884px){
+    footer {
+        width:500px;  
+        max-width:100%;  
+    }
+}
+
+
+@media (max-width:500px){
+    footer {
+        width:450px; 
+        max-width: 100%;
+    }
 }

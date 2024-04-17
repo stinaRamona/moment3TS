@@ -42,3 +42,32 @@ nav h1 {
     color:rgb(255, 208, 0) 
 }
 
+@media (max-width:1081px){
+    nav h1 {
+        display: none;
+    } 
+
+    nav {
+        justify-content: center; 
+    }
+
+    .active {
+        padding: 7%; 
+    }
+}
+
+@media (min-width: 551px) and (max-width:884px){
+    .active {
+        padding:5%; 
+    }
+}
+
+@media (max-width: 550px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .active {
+        padding: 3%; 
+    }
+}

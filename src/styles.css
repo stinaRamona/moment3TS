@@ -21,3 +21,18 @@ h1 {
 p {
     max-width: 32em;   
 } 
+
+@media (min-width: 501px) and (max-width:884px){
+    main {
+        width:500px;  
+        max-width:100%;  
+    }
+}
+
+
+@media (max-width:500px){
+    main {
+        width:450px; 
+        max-width: 100%;
+    }
+}
