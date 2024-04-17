@@ -9,12 +9,9 @@
 <button (click)="convertLengthMtoF()">Konvertera Meter till Fot</button>
 <button (click)="convertLengthFtoM()">Konvertera Fot till Meter</button>
 
-<div id="resultLength" [(ngModel)]="resultLength">
+<div>
     <b>Resultat: {{ resultLength }}</b>
 </div>
-
-<p>formel att jobba med:</p>
-<p>Fot = Meter *3.281</p>
 
 <h3>Konverterare för celcius/farenheit</h3>
 <div>
@@ -25,10 +22,7 @@
 <button (click)="convertDegreesCtoF()">Konvertera celcius till farenheit</button>
 <button (click)="convertDegreesFtoC()">Konvertera farenheit till celcius</button>
 
-<div id="resultTemp" [(ngModel)]="resultTemp">
+<div>
     <b>Resultat: {{ resultTemp }}</b>
 </div>
-
-<p>formel att jobba med:</p>
-<p>Ta antalet grader i Fahrenheit, dra ifrån 32. Multiplicera sedan med 5 och dela med 9</p>
 

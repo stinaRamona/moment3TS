@@ -16,19 +16,19 @@ export class ConvertComponent {
   resultTemp: number = 0; 
 
  //metod för att konvertera meter till fot och vice versa
-  convertLengthMtoF(){
-    this.resultLength = this.lengthInput * 3.281
+  convertLengthMtoF(): void {
+    this.resultLength = this.lengthInput * 3.281;
     } 
 
-  convertLengthFtoM(){
-    this.resultLength = this.lengthInput / 3.281
+  convertLengthFtoM(): void {
+    this.resultLength = this.lengthInput / 3.281;
   }
  //metod för att konvertera celsius till farenheit och vice versa
-  convertDegreesCtoF(){
-    this.resultTemp = this.tempInput + 32 * 5 / 9 
+  convertDegreesCtoF(): void{
+    this.resultTemp = this.tempInput * 9 / 5 + 32;
   } 
 
-  convertDegreesFtoC(){
-    this.resultTemp = this.tempInput - 32 / 5 * 9 
+  convertDegreesFtoC(): void{
+    this.resultTemp = (this.tempInput - 32) * 5 / 9; 
   }
 }
